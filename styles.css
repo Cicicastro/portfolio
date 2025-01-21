@@ -1,0 +1,220 @@
+/* Reset */
+body, h1, h2, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fundo da Página */
+body {
+    background: #1b1b1b; /* Preto fosco */
+    color: #eae0d5; /* Tons de terra claros */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background: #2c2c2c; /* Preto mais claro */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eae0d5;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eae0d5;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .nav-links li {
+    margin: 0 15px;
+}
+
+header .nav-links a {
+    color: #eae0d5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+    color: #a67c52; /* Tom de terra mais intenso */
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    background: linear-gradient(135deg, #2c2c2c, #1b1b1b);
+    color: #eae0d5;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #a67c52; /* Tom terra para contraste */
+    color: #1b1b1b; /* Preto */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#hero .btn:hover {
+    background: #8c6239; /* Tom terra mais escuro */
+    color: #fff;
+}
+
+/* Seções */
+section {
+    padding: 60px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #2c2c2c; /* Preto mais claro */
+    color: #eae0d5;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Projetos */
+.project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project {
+    background: #3a3a3a; /* Cinza escuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #a67c52;
+}
+
+.project p {
+    margin-bottom: 15px;
+    color: #d6ccb5;
+}
+
+.project .btn {
+    padding: 10px 20px;
+    background: #a67c52;
+    color: #1b1b1b;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.project .btn:hover {
+    background: #8c6239;
+    color: #fff;
+}
+
+/* Habilidades */
+.skills-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    text-align: center;
+}
+
+.skill {
+    background: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #a67c52;
+}
+
+.skill p {
+    color: #d6ccb5;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #3a3a3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    background: #2c2c2c;
+    color: #eae0d5;
+}
+
+form button {
+    background: #a67c52;
+    color: #1b1b1b;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #8c6239;
+    color: #fff;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1b1b1b;
+    color: #eae0d5;
+}
+
+footer .social-links a {
+    color: #eae0d5;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #a67c52;
+}
