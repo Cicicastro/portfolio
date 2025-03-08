@@ -139,6 +139,22 @@ section {
     color: #fff;
 }
 
+/* Imagens dos Projetos */
+.project-img {
+    width: 180px; /* Ajustado para um meio-termo entre o tamanho anterior e o mais pequeno */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
 /* Habilidades */
 .skills-grid {
     display: grid;
