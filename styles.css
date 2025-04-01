@@ -234,3 +234,252 @@ footer .social-links a {
 footer .social-links a:hover {
     color: #a67c52;
 }
+/* Banner Image */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Botões em bloco */
+.btn-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+/* Títulos com ícones */
+.project-detail h2 {
+    border-bottom: 2px solid #a67c52;
+    padding-bottom: 5px;
+    margin: 40px 0 20px;
+    color: #a67c52;
+}
+
+/* Imagens do dashboard alinhadas à esquerda e maiores */
+.left-img {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Grid para screenshots lado a lado */
+.screenshot-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.screenshot-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+/* Links mais visíveis */
+.project-detail a {
+    color: #eae0d5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-detail a:hover {
+    color: #a67c52;
+    text-decoration: underline;
+}
+
+/* Cor dos links corrigida */
+.project-detail a {
+    color: #eae0d5 !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-detail a:hover {
+    color: #a67c52 !important;
+    text-decoration: underline;
+}
+
+/* Ajustar tamanho das screenshots */
+.screenshot-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    height: auto;
+}
+
+/* Mostrar topo da imagem no banner */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Forçar cor dos links para branco visível */
+.project-detail a {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-detail a:hover {
+    color: #a67c52 !important;
+    text-decoration: underline;
+}
+
+/* Dispor screenshots lado a lado */
+.screenshot-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Ajustar tamanho equilibrado */
+.screenshot-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+    height: auto;
+}
+
+/* Banner imagem - mostrar o meio superior */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Links visíveis em branco puro, reforçados */
+.project-detail a,
+.project-detail a:visited,
+.project-detail a:active {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-detail a:hover {
+    color: #a67c52 !important;
+    text-decoration: underline;
+}
+
+/* Screenshots maiores */
+.screenshot-img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    height: auto;
+}
+
+/* Banner imagem - foco ainda mais no topo */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 0% 15%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Links forçados a branco (inclusive links visitados) */
+.project-detail a,
+.project-detail a:visited,
+.project-detail a:active {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+.project-detail a:hover {
+    color: #a67c52 !important;
+    text-decoration: underline !important;
+}
+
+/* Forçar cor branca no link do header */
+header a,
+header a:visited,
+header a:active {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #a67c52 !important;
+    text-decoration: underline;
+}
+
+/* Banner imagem - menos zoom (mostrar mais da imagem) */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    object-position: top;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Banner imagem - reduzir ligeiramente o zoom mantendo largura cheia */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top 5%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Banner imagem - mostrar ainda mais da parte superior */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top 0%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Banner imagem - posição meio topo */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top 35%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Banner imagem - posição ajustada mais para cima (top 20%) */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top 20%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Banner imagem - ajustar para mostrar mais do centro */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
